@@ -9,7 +9,8 @@ module.exports = {
     },
     plugins: [
             new webpack.ProvidePlugin({
-                p5: "p5"//this webpack function allows me to automatically load a module when the identifier is used in the module. TODO: EXPLAIN BETTER
+                p5: "p5",//this webpack function allows me to automatically load a module when the identifier is used in the module. TODO: EXPLAIN BETTER
+                p5dom: "p5/lib/addons/p5.dom"
            })
         ]
 };

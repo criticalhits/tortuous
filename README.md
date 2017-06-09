@@ -12,6 +12,8 @@ npm install
 npm run dev
 ```
 
+
+
 ## Important concepts
 
 ### ECMAScript -> Javascript
@@ -33,5 +35,19 @@ Webpack is a module bundler for Javascript, which allows for a simple workflow o
 You can learn more about Webpack, and read documentation/tutorials/etc. here: https://webpack.js.org/concepts/ 
 However, to simplify it as much as possible, configuring webpack involves creating a webpack.config.js file, wherein we tell webpack where to look for our javascript files, and where to output the bundle.
 
+**In this tutorial, I've made a minimal webpack config file with a single entry point -- index.js -- telling it to output the bundle to ./dist/index.bundle.js.** This means that I should include the bundle in at the body of my html page, e.g.
+```html
+<html> 
+  <body> 
+
+    <script src="dist/index.bundle.js"> 
+    </script>
+  </body>
+</html>
+```
+
 ### imports/export statements
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/import
+
+
+
