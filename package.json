@@ -1,0 +1,20 @@
+{
+  "name": "tortuous",
+  "version": "1.0.0",
+  "description": "full of twists and turns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criticalhits/tortuous.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criticalhits/tortuous/issues"
+  },
+  "homepage": "https://github.com/criticalhits/tortuous#readme"
+}
