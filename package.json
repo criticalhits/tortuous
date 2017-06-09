@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/criticalhits/tortuous#readme",
   "devDependencies": {
+    "lite-server": "^2.3.0",
     "webpack": "^2.6.1"
   },
   "dependencies": {
