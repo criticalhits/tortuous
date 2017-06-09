@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/criticalhits/tortuous/issues"
   },
-  "homepage": "https://github.com/criticalhits/tortuous#readme"
+  "homepage": "https://github.com/criticalhits/tortuous#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
 }
