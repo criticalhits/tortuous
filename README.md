@@ -22,8 +22,20 @@ $ npm install
 Running:
 
 ```bash
-$ npm run build #or `webpack` if you have webpack globally installed
-$ npm run dev # or `lite-server` if you have lite-server globally installed
+$ npm run build #or simply `webpack` if you have webpack globally installed -- this bundles our javascript
+$ npm run dev # or simply  `lite-server` if you have lite-server globally installed -- this runs a local development server using lite-server. you can use any server to run this, i just wanted a simple/lightweight development server built-in to the tutorial.
+#you should see something like
+[BS] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:####
+    External: http://IP:####
+ ---------------------------------------
+          UI: http://IP:####
+ UI External: http://IP:####
+ ---------------------------------------
+[BS] Serving files from: ./
+[BS] Watching files...
+#You can now go to localhost:#### in your browser to view the page
 ```
 
 
