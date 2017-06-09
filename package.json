@@ -4,6 +4,7 @@
   "description": "full of twists and turns.",
   "main": "index.js",
   "scripts": {
+    "dev": "node_modules/lite-server/bin/lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
