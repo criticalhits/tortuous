@@ -8,7 +8,11 @@ class SampleClass {
   constructor(p5api,name="Default SampleClass name", x=20, y=40, w=500, h=250) { //Function parameters can be given default values
     this.p = p5api
     this.name = name
-    greeting()
+    this.x = x
+    this.y = y
+    this.w = w
+    this.h = h
+    this.greeting()
   }
 
   greeting() { 
@@ -29,10 +33,10 @@ var sketch = function ( p ) {
     p.createCanvas(800,600)
     sample1 = new SampleClass(p) 
     sample2 = new SampleClass(p, "Bob", 80, 60, 400, 100) 
+    p.background(255)// 
   }
 
   p.draw = function() {
-    p.background(0)// 
     sample1.draw()
     sample2.draw()
   }

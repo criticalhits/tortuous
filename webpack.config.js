@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 module.exports = {
     entry: {
-        app: './app/index.js',// this is the starting point for running `webpack` to create one bundle   
+        index: './app/index.js',// this is the starting point for running `webpack` to create one bundle   
     },
     output: {
         filename: '[name].bundle.js',//When webpack finishes, you will have a /dist/app.bundle.js file you can include in your html
