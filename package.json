@@ -19,5 +19,8 @@
   "homepage": "https://github.com/criticalhits/tortuous#readme",
   "devDependencies": {
     "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "p5": "^0.5.11"
   }
 }
